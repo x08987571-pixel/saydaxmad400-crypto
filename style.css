@@ -29,6 +29,10 @@ body {
     background-color: #210a01;
 }
 
+/* header {
+    background-color: #210a01;
+} */
+
 .header__title {
     font-weight: 800;
     font-size: 34px;
@@ -77,7 +81,7 @@ body {
     display: none;
 }
 
-@media (max-width:1134px) {
+@media (max-width:1143px) {
     .header__list {
         display: none;
     }
@@ -98,8 +102,10 @@ body {
     }
 }
 
-
-/* main */
+/* 
+main {
+    background-color: #210a01;
+} */
 
 
 .hero__block {
@@ -167,7 +173,7 @@ body {
     justify-content: space-between;
 }
 
-@media (max-width:1134px) {
+@media (max-width:1143px) {
     .hero__block {
         flex-direction: column-reverse;
         margin-left: 150px;
@@ -300,7 +306,7 @@ body {
     margin-left: 360px;
 }
 
-@media (max-width:1134px) {
+@media (max-width:1143px) {
     .meat__items {
         margin-top: -490px;
         flex-wrap: wrap;
@@ -378,28 +384,164 @@ body {
     padding-left: 50px;
 }
 
-.event__btn{
+.event__btn {
     padding: 11px 84px;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-.event__second_content_box{
+.event__second_content_box {
     background-image: url(./asset/img/event__second.png);
     background-repeat: no-repeat;
     color: #fff;
-    padding-left: 30px;     
+    padding-left: 30px;
     height: 260px;
     width: 370px;
     border-radius: 30px;
     padding-top: 40px;
 }
-.event__first_content{
+
+.event__first_content {
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.event__block{
+.event__block {
     margin-top: 100px;
+}
+
+.event__titles {
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 110%;
+    color: #fff;
+    margin-left: 70px;
+}
+
+.event__text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 161%;
+    text-align: right;
+    color: #a3a3a3;
+    width: 350px;
+}
+
+.event__fouth_content_box {
+    background-image: url(./asset/img/big\ __eat_pizza_img.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 190px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
+.event__seventh__content_box {
+    display: flex;
+    align-items: center;
+    margin-top: -89px;
+}
+
+.event__sixth__content_box {
+    background-image: url(./asset/img/event--no.png);
+    background-repeat: no-repeat;
+    height: 260px;
+    margin-top: -20px;
+}
+
+.event__seventh__content_box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    gap: 20px;
+}
+
+.event__fifther_content_box {
+    background-image: url(./asset/img/free__coffee_event.png);
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.event__sixther_content_box {
+    background-image: url(./asset/img/our__pizza_img.png);
+    background-repeat: no-repeat;
+    height: 260px;
+}
+
+.event__seventher__content_box {
+    background-image: url(./asset/img/pizza\ eat__imgs.png);
+    background-repeat: no-repeat;
+    height: 260px;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+.event__content_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event__fifth_content_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+@media (max-width:1143px) {
+    .event__content_box {
+        display: none;
+    }
+
+    .event__first_content {
+        flex-direction: column-reverse;
+    }
+
+    .event__sixth__content_box {
+        display: none;
+        margin-left: 150px;
+    }
+
+    .event__fifther_content_box {
+        margin-left: 400px;
+    }
+}
+
+.us__block {
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.us__title {
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 110%;
+    color: #fff;
+}
+
+.us__text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 161%;
+    color: #a3a3a3;
+    width: 499px;
+    margin-top: 20px;
+}
+
+.us__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:1143px) {
+    .us__block{
+        flex-direction: column-reverse;
+    }
+}
+
+.footer{
+    background-color: #100701;
 }
